@@ -12,9 +12,10 @@ public class Deck {
 	}
 
 	public Card getFirstCard() {
-		shuffleDeck(); // Shuffle first
-		return deck.getFirst(); // Get first card
+    	shuffleDeck(); // Shuffle first
+    	return deck.get(0); // Get the first card after shuffle
 	}
+
 
 
 	// Method to create a deck of 52 cards
