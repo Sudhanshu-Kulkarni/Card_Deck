@@ -1,6 +1,6 @@
 ## Card Deck
 
-This repository contains a **Java-based Card Deck Management System** that allows users to perform various operations on a deck of playing cards. The program runs via a **command-line interface** and provides functionality to print, shuffle, find, and deal cards.
+This repository allows users to perform various operations on a deck of playing cards. The program runs via a **command-line interface** and provides functionality to print, shuffle, find, and deal cards.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -9,7 +9,7 @@ This repository contains a **Java-based Card Deck Management System** that allow
 - [How to Run](#how-to-run)
 
 ## Overview
-The **Card Deck Management System** allows users to interact with a standard deck of 52 playing cards. Users can print the deck, find specific cards, shuffle, compare, and deal hands.
+The program allows users to interact with a standard deck of 52 playing cards. Users can print the deck, find specific cards, shuffle, compare, and deal hands.
 
 The program consists of the following classes:
 - **`Card`**: Represents an individual playing card with a **rank** and **suit**.
@@ -57,7 +57,7 @@ Provides the menu-driven interface for user interaction.
 ## **How to Run**
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YourUsername/Card_Deck.git
+   git clone https://github.com/Sudhanshu-Kulkarni/Card_Deck.git
    ```
 2. **Compile the Java files**:
    ```bash
