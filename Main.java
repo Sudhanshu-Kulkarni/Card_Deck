@@ -27,9 +27,10 @@ public class Main {
 					deck.printDeck();
 					break;
 				case 2:
-					deck.shuffleDeck();
-					deck.get(1);
-					break;
+    				Card firstCard = deck.getFirstCard(); // Get first card
+    				firstCard.printCard(); // Print the card
+    				break;
+
 
 				case 3:
 					deck.shuffleDeck();
