@@ -65,4 +65,17 @@ public class Deck {
 		}
 	}
 
+	// Method to deal 5 random cards
+	public void dealCard() {
+		if (deck.size() < 5) {
+			System.out.println("Not enough cards.");
+			return;
+		}
+
+		System.out.println("Dealing 5 random cards:");
+		for (int i = 0; i < 5; i++) {
+			Card card = deck.remove(new Random().nextInt(deck.size()));
+			card.printCard();
+		}
+	}
 }
