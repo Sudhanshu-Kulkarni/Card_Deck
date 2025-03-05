@@ -14,4 +14,13 @@ public class Card {
 	public void printCard() {
 		System.out.println(this);
 	}
+
+	// Getter methods for rank and suit
+	public String getRank() {
+		return rank;
+	}
+
+	public String getSuit() {
+		return suit;
+	}
 }
