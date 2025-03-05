@@ -34,17 +34,35 @@ Represents a single playing card with a **rank** and **suit**.
 - `public Card(String rank, String suit)`: Constructor to initialize a card.
 - `public String getRank()`: Returns the rank of the card.
 - `public String getSuit()`: Returns the suit of the card.
+- `public void printCard()`: Prints the details of the card (rank and suit).
 - `@Override public String toString()`: Returns a string representation of the card.
 
 ### **Deck Class**
 Handles operations related to a deck of cards.
 
-#### **Methods**
-- `public Deck()`: Initializes a deck of 52 cards.
-- `public void printDeck()`: Prints all cards in the deck.
-- `public void shuffle()`: Randomly rearranges the deck.
-- `public Card findCard(String rank, String suit)`: Searches for a card by rank and suit.
-- `public void deal(int numCards)`: Deals a specified number of cards from the deck.
+## Methods
+
+- **`public Card getFirstCard()`**  
+  Shuffles the deck and returns the first card after shuffling.  
+
+- **`public void printDeck()`**  
+  Prints all the cards in the deck.  
+
+- **`public void shuffleDeck()`**  
+  Shuffles the deck of cards randomly.  
+
+- **`public void findCard(String rank, String suit)`**  
+  Searches for a specific card in the deck by rank and suit. Prints the card if found; otherwise, prints "Card not found."  
+
+- **`public void compareCard(Card c1, Card c2)`**  
+  Compares two cards based on their rank and prints whether they have the same rank or not.  
+
+- **`public void findCardsBySuit(String suit)`**  
+  Finds and prints all cards in the deck with the specified suit.  
+
+- **`public void dealCard()`**  
+  Deals 5 random cards from the deck and displays them. If there are fewer than 5 cards left, prints "Not enough cards."  
+
 
 ### **Main Class**
 Provides the menu-driven interface for user interaction.
