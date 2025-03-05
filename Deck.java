@@ -55,4 +55,14 @@ public class Deck {
 		}
 	}
 
+	// Method to find cards with the same suit
+	public void findCardsBySuit(String suit) {
+		System.out.println("Cards with suit " + suit + ":");
+		for (Card card : deck) {
+			if (card.getSuit().equalsIgnoreCase(suit)) {
+				card.printCard();
+			}
+		}
+	}
+
 }
