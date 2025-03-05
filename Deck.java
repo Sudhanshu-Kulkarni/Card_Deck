@@ -46,4 +46,13 @@ public class Deck {
 		System.out.println("Card not found.");
 	}
 
+	// Method to compare two cards based on rank
+	public void compareCard(Card c1, Card c2) {
+		if (c1.getRank().equalsIgnoreCase(c2.getRank())) {
+			System.out.println("Both cards have the same rank: " + c1.getRank());
+		} else {
+			System.out.println("Cards have different ranks: " + c1 + " vs " + c2);
+		}
+	}
+
 }
