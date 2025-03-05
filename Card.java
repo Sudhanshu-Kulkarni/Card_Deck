@@ -10,4 +10,8 @@ public class Card {
 		this.suit = suit;
 	}
 
+	// Method to print a single card
+	public void printCard() {
+		System.out.println(this);
+	}
 }
