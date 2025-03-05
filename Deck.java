@@ -23,4 +23,11 @@ public class Deck {
 		}
 	}
 
+	// Method to print all cards in the deck
+	public void printDeck() {
+		for (Card card : deck ) {
+			card.printCard();
+		}
+	}
+
 }
